@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 05, 2024 at 07:48 PM
+-- Generation Time: Jun 10, 2024 at 10:18 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -42,10 +42,17 @@ CREATE TABLE `item` (
 --
 
 INSERT INTO `item` (`item_id`, `name`, `price`, `category`, `image`, `details`, `reg_date`) VALUES
-(1, 'Samsung', 120000, 'Tablet', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Feufsqh.jpg?alt=media', '                                                                                                                                                                                       alx             \r\n                                    \r\n                                    \r\n                                    \r\n                                    ', '2024-06-04 12:22:29.471'),
-(3, 'Huawei P30', 335, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fxuiunq.jpg?alt=media', '         huwawei', '2024-06-04 17:05:08.939'),
-(4, 'Nothing Phone (2)', 700, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fmjydyf.jpg?alt=media', '256 GB + 12 GB Ram', '2024-06-04 18:42:51.699'),
-(5, 'Google - Pixel 8 Pro', 749, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fbsvkrd.jpg?alt=media', '                                    Google - Pixel 8 Pro 128GB (Unlocked) - Obsidian', '2024-06-05 09:58:43.628');
+(1, 'Samsung', 700, 'Tablet', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Frrzsed.jpg?alt=media', '                                                                                                                                                                                                                                                                                                                                                       alx             \r\n                                    \r\n                                    \r\n                                    \r\n                                    \r\n                                    \r\n                                    \r\n                                    \r\n                                    ', '2024-06-04 12:22:29.471'),
+(3, 'Huawei P30', 335, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Flvhthx.jpg?alt=media', '                                                 huwawei\r\n                                    ', '2024-06-04 17:05:08.939'),
+(4, 'Nothing Phone (2)', 700, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fdthcea.jpg?alt=media', '                                        256 GB + 12 GB Ram\r\n                                    ', '2024-06-04 18:42:51.699'),
+(5, 'Google - Pixel 8 Pro', 749, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fuhenij.jpg?alt=media', '                                                                            Google - Pixel 8 Pro 128GB (Unlocked) - Obsidian\r\n                                    ', '2024-06-05 09:58:43.628'),
+(6, 'Microsoft All in one', 1200, 'PC', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Findxbx.jpg?alt=media', '                ms office include                    ', '2024-06-10 20:06:04.113'),
+(7, 'PC', 500, 'PC', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fcypmac.jpg?alt=media', 'pc', '2024-06-10 20:06:43.436'),
+(8, 'Samsung', 900, 'PC', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fqgcnsz.jpg?alt=media', 'Samsung galaxy     ', '2024-06-10 20:07:51.417'),
+(9, 'Samsung Note', 3000, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fepukpt.jpg?alt=media', '      new                              ', '2024-06-10 20:08:32.211'),
+(10, 'Samsung M13', 700, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fntpweo.jpg?alt=media', '50 mp            ', '2024-06-10 20:09:40.422'),
+(11, 'Samsung galaxy s 9', 678, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fhhomnp.jpg?alt=media', 'galaxy s 9 pro            ', '2024-06-10 20:10:53.364'),
+(12, 'Galaxy Watch', 400, 'Mobile', 'https://firebasestorage.googleapis.com/v0/b/absiniyamobile.appspot.com/o/images%2Fptixjz.jpg?alt=media', 'pro                     ', '2024-06-10 20:11:24.685');
 
 -- --------------------------------------------------------
 
@@ -94,7 +101,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `item`
 --
 ALTER TABLE `item`
-  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `users`

@@ -78,7 +78,6 @@ def register():
 
         get_pic_url = storage.child("images/"+unique_combination+".jpg").get_url(None)
 
-
         print(get_pic_url)
         cur = mysql.connection.cursor()
         cur.execute(f"insert into item(name, price, category, image, details) values ('{name}', '{price}', '{category}', '{get_pic_url}', '{detail}')")
@@ -114,7 +113,6 @@ def edit_item(item_id):
         return render_template("edit_item.html", item=data)
     else:
         return "Item not found."
-
 
 
 @app.route('/edit', methods=['GET','POST'])
